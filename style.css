@@ -1,0 +1,319 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #9ccad7;
+
+    margin: 0;
+
+    padding: 40px;
+}
+
+
+/* =========================================
+   2. MAIN HEADING
+   ========================================= */
+
+h1 {
+    text-align: center;
+
+    color: #222;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================================
+   3. FORM CONTAINER
+   ========================================= */
+
+form {
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================================
+   4. FIELDSET
+   ========================================= */
+
+fieldset {
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    margin-bottom: 25px;
+}
+
+
+/* =========================================
+   5. LEGEND
+   ========================================= */
+
+legend {
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #333;
+
+    padding: 0 10px;
+}
+
+
+/* =========================================
+   6. LABELS
+   ========================================= */
+
+label {
+    display: inline-block;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+
+    color: #333;
+}
+
+
+/* =========================================
+   7. TEXT INPUTS
+   ========================================= */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="date"] {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   8. SELECT
+   ========================================= */
+
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    background-color: white;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   9. TEXTAREA
+   ========================================= */
+
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    resize: vertical;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   10. RANGE SLIDER
+   ========================================= */
+
+input[type="range"] {
+
+    width: 100%;
+
+    margin: 15px 0;
+}
+
+
+/* =========================================
+   11. CHECKBOXES AND RADIO BUTTONS
+   ========================================= */
+
+input[type="checkbox"],
+input[type="radio"] {
+
+    margin-right: 8px;
+}
+
+
+/* =========================================
+   12. FILE INPUT
+   ========================================= */
+
+input[type="file"] {
+
+    display: block;
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   13. SMALL TEXT
+   ========================================= */
+
+small {
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   14. BUTTONS
+   ========================================= */
+
+button {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+
+/* =========================================
+   15. SUBMIT BUTTON
+   ========================================= */
+
+button[type="submit"] {
+
+    background-color: #007bff;
+
+    color: white;
+}
+
+
+/* =========================================
+   16. RESET BUTTON
+   ========================================= */
+
+button[type="reset"] {
+
+    background-color: #777;
+
+    color: white;
+}
+
+
+/* =========================================
+   17. HOVER EFFECT
+   ========================================= */
+
+button:hover {
+
+    opacity: 0.85;
+}
+
+
+/* =========================================
+   18. INPUT FOCUS
+   ========================================= */
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    outline: none;
+
+    border-color: #007bff;
+
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+
+/* =========================================
+   19. REQUIRED FIELDS
+   ========================================= */
+
+input:required,
+select:required,
+textarea:required {
+
+    background-color: #fff;
+}
+
+
+/* =========================================
+   20. RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    body {
+
+        padding: 15px;
+    }
+
+    form {
+
+        padding: 20px;
+    }
+
+    h1 {
+
+        font-size: 26px;
+    }
+
+    button {
+
+        width: 100%;
+
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+<!-- TASK 3
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Add Subjects</title>
+</head>
+<body>
+<h2>My Subjects</h2>
+<input type="text" id="search" placeholder="Search subject">
+<ul id="subjectList">
+<li>English</li>
+<li>Mathematics</li>
+<li>Computer Science</li>
+<li>Urdu</li>
+<li>Full Stack</li>
+<li>Information Security</li>
+</ul>
+<script src="task1.js"></script>
+</body>
+ </html> -->
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Profile Image</h1>
+    <img id="profileImage" src="https://placehold.co/180x140?text=Original" alt="Original image" width="180">
+    <p id="altText">Alt text: Original image</p>
+    <button id="imageButton">Change Image Attributes</button>
+
+    <script>
+        const image = document.getElementById("profileImage");
+        const altText = document.getElementById("altText");
+
+        document.getElementById("imageButton").addEventListener("click", function () {
+            image.setAttribute("src", "https://placehold.co/180x140/1f5f99/ffffff?text=Updated");
+            image.setAttribute("alt", "Updated placeholder image");
+            altText.textContent = "Alt text: " + image.getAttribute("alt");
+        });
+    </script>
+</body>
+</html>

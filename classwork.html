@@ -1,0 +1,47 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript DOM Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f4f4f9;
+        }
+        h2 {
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="greet">Hello!</h2>
+
+    <button onclick="changeText()">Change Greeting</button>
+
+    <script>
+      function changeText() {
+    document.getElementById("greet").textContent = "Welcome to JavaScript DOM!";
+    document.getElementById("greet").style.color = "green";
+}
+    </script>
+
+</body>
+</html>
